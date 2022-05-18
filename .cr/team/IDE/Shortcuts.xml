@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Type="DevExpress.CodeRush.Foundation.Shortcuts.ShortcutsOptions">
+  <Options Language="Neutral">
+    <RootFolder>
+      <SubFolders>
+        <Item Id="{01ea3896-6cc1-4912-824e-88c7c5a82a25}" />
+        <Item Id="{66d31aae-e1f0-43b9-8108-123cb59d73bd}" />
+        <Item Id="{4fcfb46a-6fd9-4ba4-a790-6447cb1cf0a5}" />
+        <Item Id="{55d41133-671c-49f1-a934-6c5d59c3f319}">
+          <Bindings>
+            <Item Id="{bd01d98c-2b98-434e-8ab6-ea890842f7f0}" />
+            <Item Id="{cd07208c-8493-4d9f-aeaf-f872a50d9c52}" />
+            <Item Id="{6dbfeedc-f4f1-473e-af34-dbf91f5c4abd}" />
+            <Item Id="{3cbca747-a777-4984-86f6-9987688f4e23}" />
+            <Item Id="{df858f43-cab3-44da-b1f2-992bbf23c9ca}" />
+            <Item Id="{a7134587-8893-447a-b6a5-f1559a17c063}" />
+            <Item Id="{e29721b9-96d1-49b0-ab5e-55dcf6170644}" />
+            <Item Id="{ddeee320-739f-4e74-b41f-c6a2f6ccf599}" />
+            <Item Id="{ead139d2-ddb7-4251-a9cd-686b42f4dd72}">
+              <Enabled>True</Enabled>
+            </Item>
+            <Item Id="{51ddd495-85fc-4503-a6dc-c5c828fdbca9}">
+              <Enabled>True</Enabled>
+            </Item>
+            <Item Id="{94c8dc3a-5f41-4903-b352-532ad2df595e}" />
+            <Item Id="{3ed9e248-dbdd-402f-98f2-9c9eead1f2ad}" />
+            <Item Id="{ebad2dc4-813d-468c-8114-d354e370a9fb}" />
+            <Item Id="{82dde967-d9d9-4251-8034-194c197c12c4}" />
+            <Item Id="{7ba2b869-7e80-4488-b356-45164ad51d18}" />
+            <Item Id="{ed859d06-70b8-42b2-9bc1-cf888b46d99c}" />
+            <Item Id="{a229a4e2-853a-4785-b395-bf088debb133}" />
+          </Bindings>
+        </Item>
+        <Item Id="{a3f2b3b4-9497-4db5-9f8b-c4b30a2240ac}" />
+        <Item Id="{318b8900-85af-4c66-b37f-8a86508e7a89}" />
+        <Item Id="{d33fb6fa-56b3-40a1-b169-71e855b2e3a2}" />
+        <Item Id="{4aa0656f-7150-440b-8585-509c548e9d7e}" />
+        <Item Id="{6b5ce4c5-20fc-4630-b194-06148b1620ab}" />
+        <Item Id="{75bbab5c-4601-4330-81a6-5a2235cd160b}" />
+        <Item Id="{5bdc0641-179d-4ad9-bda7-06530f97c526}" />
+      </SubFolders>
+    </RootFolder>
+  </Options>
+</Root>

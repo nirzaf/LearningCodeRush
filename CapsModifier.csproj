@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0D40D803-BB72-4C1F-9316-23EBC0A07A35}</ProjectGuid>
+    <LangVersion>8</LangVersion>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CapsModifier</RootNamespace>
+    <AssemblyName>CapsModifier</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <LangVersion>8</LangVersion>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <LangVersion>8</LangVersion>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AllLessonsCapsModifier.cs" Visible="False" />
+    <Compile Include="MoreCapsShortcuts.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Currency.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\CustomerFactoryPart.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\RemoveAllRedundantBlockDelimitersPart.cs" Visible="False" />
+    <Compile Include="CapsDelete\RemoveTypeQualifier.cs" />
+    <Compile Include="CapsDelete\RemoveUnusedMember.cs" />
+    <Compile Include="CapsDelete\RemoveUnusedParameter.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\RemoveUnusedParameterPart.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\FinishedData.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\AddElseBlockPart.cs" Visible="False" />
+    <Compile Include="CapsInsert\AddMissingConstructors.cs" />
+    <Compile Include="CapsInsert\AddParameter.cs" />
+    <Compile Include="CapsInsert\AddToInterface.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\AddParameterPart.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\CombineSplitConditionalsPart.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\InlineLambdaPart.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\RoutedEventArgs.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\StringInterpolationPart.cs" Visible="False" />
+    <Compile Include="Overrides.cs" Visible="False" />
+    <Compile Include="Setup.cs" Visible="False" />
+	<Compile Include="FinishHere.cs" Visible="False" />
+    <Compile Include="CapsSpace\ExpressionBodies.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\FlattenConditionalsPart.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\NullCoalescingPart.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\SimplifyExpressionsPart.cs" Visible="False" />
+    <Compile Include="CapsSpace\InlineTemp.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\TernaryExpressionsPart.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\InlineTempPart.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\ExpressionBodiesPart.cs" Visible="False" />
+    <Compile Include="CapsSpace\ImplicitExplicit.cs" />
+    <Compile Include="CapsSpace\Initializers.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\ImplicitExplicitPart.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\DataProcessor.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\BaseTool.cs" Visible="False" />
+    <Compile Include="CapsInsert\CapsInsert.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\SimpleNameSyntax.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Book.cs" Visible="False" />
+    <Compile Include="CapsSpace\CapsSpace.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\BaseClass.cs" Visible="False" />
+    <Compile Include="CapsDelete\CapsDelete.cs" />
+    <Compile Include="CapsDelete\RemoveAllTypeQualifiers.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Customer.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\ISymbol.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Space.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\World.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\SyntaxNode.cs" Visible="False" />
+    <Compile Include="StartHere.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" Visible="False" />
+    <Compile Include="ThankYou.cs" Visible="False" />
+    <Compile Include="ThankYou1.cs" Visible="False" />
+    <Compile Include="ThankYou2.cs" Visible="False" />
+    <Compile Include="ThankYou3.cs" Visible="False" />
+    <Compile Include="ThankYou4.cs" Visible="False" />
+    <Compile Include="ThankYou5.cs" Visible="False" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Support Files Only - No Lessons Here\App.config" Visible="False" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
